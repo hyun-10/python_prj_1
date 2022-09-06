@@ -1,6 +1,5 @@
 import streamlit as st
 
-db/app_1/
 
 def app():
 
