@@ -12,6 +12,7 @@ from db.app_1 import freeze as frez
 from db.app_1 import more as mo
 from db.app_1 import rd
 from db.app_1 import ch
+from db.app_1 import pandas as pd
 
 def app():
 
