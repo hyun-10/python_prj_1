@@ -1,9 +1,9 @@
 import streamlit as st
 
-
+from db/app_1/multi_pages import multipage
 def app():
 
-    from db.app_1.multi_pages import multipage
+    
 
 
     
