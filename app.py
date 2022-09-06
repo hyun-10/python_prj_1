@@ -12,7 +12,7 @@ app = pages()
 
 app.add_page('개발환경 설정',p1.app )
 app.add_page('자료표출',p2.app)
-app.add_page('시계열자료',p3.app)
+#app.add_page('시계열자료',p3.app)
 
 app.run()
 
