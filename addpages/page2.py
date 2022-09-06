@@ -13,7 +13,7 @@ def app():
         
     mountain['산이름'] = mountain['산이름'].str.replace(r"\(.*\)","")
  
-    ame = mountain['산이름']
+    name = mountain['산이름']
         
 
     m = folium.Map(location=[36.736429,127.801687], zoom_start=7)#기본지도
