@@ -1,6 +1,6 @@
 import streamlit as st
 
-from add_pages import pagess
+from add_pages import pages
 app = pagess()
 #import app_2
 #import app_3
