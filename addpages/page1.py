@@ -3,7 +3,7 @@ import streamlit as st
 
 def app():
 
-    from multiple.multi_pages import multipage
+    from multi_pages import multipage
 
 
     
