@@ -8,7 +8,7 @@ def app():
 
     
 
-    app = multipage()
+    app = pages()
 
 
     app.add_page('선택하세요', db/app_1/ch.app)
