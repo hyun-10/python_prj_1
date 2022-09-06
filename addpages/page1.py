@@ -1,7 +1,7 @@
 import streamlit as st
 
 from add_pages import pages
-from db import app_1
+from db.app_1 import ch
 def app():
 
     
@@ -12,7 +12,7 @@ def app():
     app = pages()
 
 
-    app.add_page('선택하세요', app_1/ch.app)
+    app.add_page('선택하세요',ch.app)
     app.add_page('명령어', app_1/rd.py.app)
     app.add_page('conda create -n test1 python=3.7.4 ipython numpy matplotlib pands scipy scikit-learn tensorflow keras ', app_1/crte.app)
     app.add_page('proceed','db/app_1/preed.app')
