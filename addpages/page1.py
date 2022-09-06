@@ -12,9 +12,9 @@ def app():
     app = pages()
 
 
-    app.add_page('선택하세요', 'app_1.ch.py'app)
-    app.add_page('명령어', 'db/app_1/rd.py.app')
-    app.add_page('conda create -n test1 python=3.7.4 ipython numpy matplotlib pands scipy scikit-learn tensorflow keras ', 'db/app_1/crte.app')
+    app.add_page('선택하세요', app_1/ch.pyapp)
+    app.add_page('명령어', app_1/rd.py.app)
+    app.add_page('conda create -n test1 python=3.7.4 ipython numpy matplotlib pands scipy scikit-learn tensorflow keras ', app_1/crte.app)
     app.add_page('proceed','db/app_1/preed.app')
     app.add_page('conda activate test1', 'db/app_1/act.app')
     app.add_page('pip install streamlit', 'db/app_1/stre.app')
