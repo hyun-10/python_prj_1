@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import streamlit as st
-import db.app_3 as module
+from db.app_3 import module
 import plotly.express as px
 
 def app():
