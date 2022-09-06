@@ -6,7 +6,7 @@ from db.app_3 import module
 import plotly.express as px
 
 def app():
-    paths='db/app_3/*.csv'
+    paths=db/app_3/*.csv
     name = st.sidebar.selectbox('자료', ['선택하세요','분자료','분자료 그래프'])
     name_ = st.sidebar.selectbox('자료', ['선택하세요','시간자료','일평균','일평균 그래프','월평균','월평균 그래프'])
 
