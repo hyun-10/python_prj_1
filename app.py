@@ -3,7 +3,7 @@ import streamlit as st
 from add_pages import pages
 from addpages import page1 as p1
 from addpages import page2 as p2
-from addpages import page3 as p3
+#from addpages import page3 as p3
 
 app = pages()
 
