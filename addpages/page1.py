@@ -1,16 +1,18 @@
 import streamlit as st
 
 from add_pages import pages
-from db.app_1 import crte
-from db.app_1 import preed
-from db.app_1 import act
-from db.app_1 import stre
-from db.app_1 import seab
-from db.app_1 import pd
-from db.app_1 import stfor
-from db.app_1 import imff
-from db.app_1 import frez
-from db.app_1 import mo
+from db.app_1 import create as crte
+from db.app_1 import proceed as preed
+from db.app_1 import activate as act
+from db.app_1 import streamlit as stre
+from db.app_1 import seaborn as seab
+from db.app_1 import streamlit_forum as stfor
+from db.app_1 import imageio_ffmpeg as imff
+from db.app_1 import freeze as frez
+from db.app_1 import more as mo
+from db.app_1 import rd
+from db.app_1 import ch
+
 def app():
 
     
