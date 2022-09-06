@@ -8,7 +8,7 @@ from add_pages import pages
 def app():
     
     app = pages()
-    mountain = pd.read_excel('mountain.xlsx', skiprows=[0,1])
+    mountain = pd.read_excel('db/app_2/mountain.xlsx', skiprows=[0,1])
     del mountain['NO.']
         
     mountain['산이름'] = mountain['산이름'].str.replace(r"\(.*\)","")
