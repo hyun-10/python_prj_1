@@ -3,7 +3,7 @@ import pandas as pd
 from streamlit_folium import folium_static
 import folium
 from geopy.geocoders import Nominatim
-class mas():
+class app():
 
         
     def __init__(self):
