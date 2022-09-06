@@ -24,7 +24,7 @@ def app():
 
 
     app.add_page('선택하세요',ch.app)
-    app.add_page('명령어', app_1/rd.py.app)
+    app.add_page('명령어', rd.py.app)
     app.add_page('conda create -n test1 python=3.7.4 ipython numpy matplotlib pands scipy scikit-learn tensorflow keras ', crte.app)
     app.add_page('proceed',preed.app)
     app.add_page('conda activate test1', act.app)
