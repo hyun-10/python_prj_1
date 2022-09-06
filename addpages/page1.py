@@ -11,7 +11,7 @@ def app():
     app = pages()
 
 
-    app.add_page('선택하세요', 'db/app_1/ch.py.'app)
+    app.add_page('선택하세요', 'db/app_1/ch.py'.app)
     app.add_page('명령어', 'db/app_1/rd.py.app')
     app.add_page('conda create -n test1 python=3.7.4 ipython numpy matplotlib pands scipy scikit-learn tensorflow keras ', 'db/app_1/crte.app')
     app.add_page('proceed','db/app_1/preed.app')
