@@ -1,7 +1,7 @@
 import streamlit as st
 
 from add_pages import pages
-app = pagess()
+app = pages()
 #import app_2
 #import app_3
 st.title('프로젝트1')
