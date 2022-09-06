@@ -4,7 +4,7 @@ from streamlit_folium import folium_static
 import folium
 from geopy.geocoders import Nominatim
 
-
+from add_pages import pages
 def app():
     
     app = pages()
