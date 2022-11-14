@@ -11,7 +11,7 @@ class pages:
   
   def run(self):
       page = st.sidebar.selectbox(
-        '목',
+        '목록',
         self.pages,
         format_func=lambda page: page['title']
       )
